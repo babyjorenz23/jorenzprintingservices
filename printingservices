@@ -1,0 +1,307 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>JMB PRINTING SERVICES</title>
+	<style>
+	body {
+	background-color: #20B2AA; /* Blue Green */
+	font-family: 'Century Gothic', sans-serif;
+	margin: 0;
+	color: white;
+	}
+	header, footer {
+	background-color: cyan;
+	color: black;
+	text-align: center;
+	padding: 20px;
+	}
+	header img {
+	max-width: 200px;
+	}
+	nav a {
+	margin: 0 15px;
+	color: ;
+	text-decoration: none;
+	font-weight: bold;
+	}
+	main {
+	padding: 20px;
+	}
+	table {
+	width: 100%;
+	background: white;
+	color: black;
+	border-collapse: collapse;
+	}
+	th, td {
+	border: 1px solid #333;
+	padding: 10px;
+	}
+	button {
+	padding: 10px;
+	margin: 5px;
+	}
+	.section {
+	margin: 40px 0;
+	}
+	iframe {
+	width: 100%;
+	height: 400px;
+	}
+	.gallery img {
+	width: 200px;
+	margin: 10px;
+	}
+	input, textarea {
+	width: 100%;
+	margin: 5px 0;
+	}
+	</style>
+	</head>
+	<body>
+	
+	<header>
+	<img src="E:\JMB PRINTING SERVICES-LOYALTY CARD ID/Colorful_Printing_and_Digital_Shop_Logo__1_-removebg-preview.png" alt="Logo">
+
+	<img src="E:\LOYALTY CARD/Untitled_design-removebg-preview.png" alt="Logo">
+
+	<h1>JMB PRINTING SERVICES</h1>
+	<p>HIGH QUALITY PRINTS</p>
+	<nav>
+	<a href="#home">Home</a>
+
+	<a href="#download">Download</a>
+
+	<a href="#contact">Contact Us</a>
+
+	<a href="#profile">Profile</a>
+
+	<a href="#activity">Latest Activity</a>
+
+	<a href="#registration">Register Loyalty Card</a>
+
+	</nav>
+	</header>
+	
+	<main>
+	<section id="home">
+	<h2>Items & Pricing</h2>
+	<table id="itemsTable">
+	<tr><th>Item</th><th>Price</th><th>Qty</th><th>Action</th></tr>
+	</table>
+	<button onclick="viewCart()">View Cart</button>
+	<button onclick="checkout()">Checkout</button>
+	<p>Before checkout, double-check items. For ID/Photo printing, send your pictures to JMBPRINTINGSERVICES12@GMAIL.COM. For book binding and document printing, send PDF/DOC files to the same email.</p>
+	</section>
+	
+	<section class="section">
+	<h2>Video Jingle & Lyrics</h2>
+	<video controls width="100%">
+	<source src="E:\IKAGES/JMB.mp4" type="video/mp4">
+
+	</video>
+	<p>Lyrics: JMB Printing Services (Tagalog Jingle)
+	
+	(Verse 1)
+	
+	Sa bawat okasyon, kami’y handa,
+	Mga print mo, siguradong maganda.
+	Tarpaulin, sticker, ID, calling card,
+	Lahat ng order, quality ang standard!
+	
+	(Chorus)
+	JMB Printing, sa'yo'y aalalay,
+	Serbisyong maaasahan, abot-kaya'y tunay!
+	Lahat ng kailangan mo, dito'y makikita,
+	JMB Printing, ang galing ay wala nang kapantay!
+	
+	(Verse 2)
+	Kung kailangan mo ng rush, wag kang mag-alala,
+	Express service, para sa’yo, agad-agad gawa!
+	Design pa lang, panalo na sa ganda,
+	Sa JMB Printing, laging may diskarte't sigla.
+	
+	(Bridge)
+	Gamit ay de-kalidad, staff ay maaasahan,
+	Para sa negosyo mo, ito’y kasangga’t kaibigan.
+	
+	(Chorus Repeat)
+	JMB Printing, sa'yo'y aalalay,
+	Serbisyong maaasahan, abot-kaya'y tunay!
+	Lahat ng kailangan mo, dito'y makikita,
+	JMB Printing, ang galing ay wala nang kapantay!
+	
+	(Outro)
+	JMB Printing Services —
+	Laging nandyan, laging maaasahan!</p>
+	</section>
+	
+	<section class="section">
+	<h2>Partners</h2>
+	<img src="E:\IKAGES/GCASH.jpg" alt="GCash" width="100">
+
+	<img src="E:\IKAGES/DTI.png" alt="DTI" width="100">
+
+	<img src="E:\IKAGES/Bank_of_the_Philippine_Islands_logo.svg.png" alt="BPI" width="100">
+
+	</section>
+	
+	<section class="section">
+	<h2>Mission & Vision</h2>
+	<p><strong>Mission:</strong>At JMB Printing Services, our mission is to deliver high-quality, affordable, and customized printing solutions that help individuals and businesses bring their ideas to life. We are committed to providing exceptional customer service, innovative designs, and fast turnaround times to meet the evolving needs of our clients.</p>
+	<p><strong>Vision:</strong> To become a leading and trusted printing service provider in the region, known for creativity, reliability, and excellence. We aim to empower our community by making professional printing accessible and impactful for all.</p>
+	</section>
+	
+	<section class="section gallery">
+	<h2>Gallery</h2>
+	<img src="gallery1.jpg" alt="Gallery1">
+
+	<img src="gallery2.jpg" alt="Gallery2">
+
+	<img src="gallery3.jpg" alt="Gallery3">
+
+	<img src="gallery4.jpg" alt="Gallery4">
+
+	<img src="gallery5.jpg" alt="Gallery5">
+
+	<img src="gallery6.jpg" alt="Gallery6">
+
+	</section>
+	
+	<section class="section">
+	<h2>Certification Registration</h2>
+	<img src="E:\IKAGES/DTI CERTIFICATE.jpg" alt="Certification" width="300">
+
+	</section>
+	
+	<section id="profile" class="section">
+	<h2>Profile</h2>
+	<p><strong>Admin:</strong> Jorenz M. Balbuena</p>
+	<img src="E:\IKAGES/ADMIN.png" alt="Admin Picture" width="200">
+
+	<p>Signature:</p>
+	<img src="E:\BACGROUND/download (1).png" alt="Signature" width="200">
+
+	<h3>Location Map</h3>
+	<iframe src="https://www.google.com/maps/embed?..."></iframe>
+
+	</section>
+	
+	<section id="activity" class="section">
+	<h2>Latest Activity & Announcements</h2>
+	<p>Stay tuned for updates!</p>
+	</section>
+	
+	<section id="registration" class="section">
+	<h2>Loyalty Card Registration</h2>
+	<form id="loyaltyForm">
+	<h3>Step 1: Personal Info</h3>
+	<input type="text" placeholder="Surname" required><br>
+	<input type="text" placeholder="Given Name" required><br>
+	<input type="text" placeholder="Middle Name"><br>
+	<input type="text" placeholder="Suffix"><br>
+	<input type="text" placeholder="Address"><br>
+	<input type="text" placeholder="Blood Type"><br>
+	
+	<h3>Step 2: Upload Photo</h3>
+	<input type="file" accept="image/*" required><br>
+	
+	<h3>Step 3: Upload or Draw Signature</h3>
+	<input type="file" accept="image/*"><br>
+	<canvas id="signaturePad" width="400" height="200" style="background:white;"></canvas><br>
+	<button type="button" onclick="clearCanvas()">Clear Signature</button><br>
+	
+	<h3>Step 4: Submit</h3>
+	<button type="button" onclick="submitForm()">Submit</button>
+	</form>
+	</section>
+	
+	<section class="section">
+	<h2>Calendar & Philippine Standard Time</h2>
+	<p>Philippine Holidays apply.</p>
+	<iframe src="https://calendar.google.com/calendar/embed?src=en.philippines%23holiday%40group.v.calendar.google.com"></iframe>
+
+	</section>
+	</main>
+	
+	<footer>
+	<p>Contact us: 09931109148 | Email: JMBPRINTINGSERVICES12@GMAIL.COM</p>
+	<p><a href="https://web.facebook.com/profile.php?id=61577415907805/">Facebook Page</a></p>
+	<p>© 2025 JMB PRINTING SERVICES All Right Reserved</p>
+	</footer>
+	
+	<script>
+	const items = [
+	["ID RUSH 1",40],["ID RUSH 2",50],["ID RUSH 3",55],["ID RUSH 4",55],
+	["ID RUSH 5",65],["ID RUSH 6",65],["ID RUSH 7",65],["ID RUSH 8",65],
+	["PHOTO PRINT 1",70],["PHOTO PRINT 2",70],["PHOTO PRINT 3",75],
+	["PHOTO PRINT 4",85],["PHOTO PRINT 5",85],["PHOTO PRINT 6",85],
+	["PHOTO PRINT 7",90],["PHOTO PRINT 8",60],["PHOTO PRINT 9",90],
+	["A4(COLORED)",5],["A4(B&W)",5],["SHORT(COLORED)",5],
+	["SHORT(B&W)",5],["LONG(COLORED)",5],["LONG(B&W)",5],
+	["LAMINATE",35],["BOOKBINDING",300]
+	];
+	
+	let cart = [];
+	
+	const table = document.getElementById("itemsTable");
+	items.forEach((item, index) => {
+	const row = table.insertRow();
+	row.insertCell(0).textContent = item[0];
+	row.insertCell(1).textContent = item[1];
+	const qty = document.createElement("input");
+	qty.type = "number"; qty.min = "1"; qty.value = "1";
+	row.insertCell(2).appendChild(qty);
+	const btn = document.createElement("button");
+	btn.textContent = "Add to Cart";
+	btn.onclick = () => {
+	cart.push([item[0], item[1], qty.value]);
+	alert(`${item[0]} x${qty.value} added!`);
+	};
+	row.insertCell(3).appendChild(btn);
+	});
+	
+	function viewCart() {
+	let msg = "Cart:\n";
+	let total = 0;
+	cart.forEach(i => {
+	msg += `${i[0]} x${i[2]} - ₱${i[1]*i[2]}\n`;
+	total += i[1]*i[2];
+	});
+	msg += `Total: ₱${total}`;
+	alert(msg);
+	}
+	
+	function checkout() {
+	let order = "Order Details:\n";
+	let total = 0;
+	cart.forEach(i => {
+	order += `${i[0]} x${i[2]} - ₱${i[1]*i[2]}\n`;
+	total += i[1]*i[2];
+	});
+	order += `Total: ₱${total}\n\n`;
+	order += "Payment:\nBPI 0909317916 JORENZ M. BALBUENA\nGCASH 09931109148 JORENZ M. BALBUENA";
+	window.location.href = `mailto:JMBPRINTINGSERVICES12@GMAIL.COM?subject=Order&body=${encodeURIComponent(order)}`;
+	}
+	
+	// Canvas Drawing
+	const canvas = document.getElementById('signaturePad');
+	const ctx = canvas.getContext('2d');
+	let drawing = false;
+	canvas.onmousedown = () => drawing = true;
+	canvas.onmouseup = () => drawing = false;
+	canvas.onmousemove = (e) => {
+	if (!drawing) return;
+	ctx.fillRect(e.offsetX, e.offsetY, 2, 2);
+	};
+	function clearCanvas() { ctx.clearRect(0, 0, canvas.width, canvas.height); }
+	
+	function submitForm() {
+	alert("Submitted! Your loyalty card ID will be emailed.");
+	}
+	</script>
+	
+	</body>
+	</html>
